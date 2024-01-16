@@ -1,0 +1,21 @@
+.container{
+
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    
+}
+.header{
+   grid-template-areas: "header";
+}
+.box1{
+    grid-template-areas: "col1" "col1" "col1" "col1";
+}
+.box2{
+    grid-template-areas: card content;
+}
+.footer{
+    grid-template-areas: footer;
+}

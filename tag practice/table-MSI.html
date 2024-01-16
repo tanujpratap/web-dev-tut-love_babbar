@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th{
+border: 1px solid black;
+ border-collapse: collapse;
+        }
+        .shadow{
+            background-color: aqua;
+            height: 200px;
+            width: 300px;
+            /* box-shadow: -10px -10px 10px black ,-15px -15px 15px green; */
+            box-shadow:  inset 0px 0px 0px 3px red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption > my &nbsp; result </caption>
+        <th> <tr>
+            <th>subject</th>
+            <th>sem1</th>
+            <th>sem2</th>
+        </tr></th>
+       <tbody>
+        <tr>
+            <td>english</td>
+            <td>10</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>hindi</td>
+            <td>8</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>math</td>
+            <td>7</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>physics</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td>total</td>
+            <td>30</td>
+            <td>28</td>
+        </tr>
+        </tfoot>
+    </table>
+    <textarea name="message" id="" cols="30" rows="10" >type your message here</textarea><br>
+   <label for="car"> favorite car</label>
+   
+    <select name="car" id="car" size="4" multiple>
+        <option value="x">x</option>
+        <option value="x">x</option>
+        <option value="x">x</option>
+        <option value="x">x</option>
+
+    </select>
+    <div class="shadow"> box</div>
+</body>
+</html>
